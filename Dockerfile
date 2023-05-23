@@ -38,8 +38,8 @@ USER 1000
 WORKDIR /opt/keycloak
 
 # Configure runtime options
-ENV TZ=Europe/Amsterdam
-ENV KC_DB_URL_HOST=postgresql
+ENV TZ=America/New_York
+ENV KC_DB_URL_HOST=postgresql.backend
 ENV KC_DB_URL_PORT=5432
 ENV KC_DB_URL_DATABASE=openremote
 ENV KC_DB_SCHEMA=public
